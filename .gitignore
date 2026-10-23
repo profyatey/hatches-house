@@ -1,0 +1,19 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local database and backups
+.sql
+*.sql.gz
+*.bak
+backups/
+
+# Dependencies and generated files
+vendor/
+node_modules/
+
+# Local development files
+.DS_Store
+Thumbs.db
+.vscode/
